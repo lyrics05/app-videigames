@@ -25,7 +25,7 @@ export default function Home() {
     const [page, setPage] = useState(1);
     const [videoGamesPage, setVideoGamesPage] = useState(15);
     const[input, setInput]=useState("")
-    console.log(input)
+   // console.log(input)
    
    
    

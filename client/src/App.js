@@ -23,6 +23,5 @@ function App() {
     </BrowserRouter>
   );
 }
-console.log("desde app")
 
 export default App;
