@@ -10,6 +10,9 @@ const router = Router();
 
 // Configurar los routers
 // Ejemplo: router.use('/auth', authRouter);
+router.get('/', (req, res) => {
+    res.send('API funcionando correctamente');
+});
 router.use("/videogames",videogamesRoute);
 router.use("/videogame",createGameRoute);
 router.use("/genres",genresRoute);
